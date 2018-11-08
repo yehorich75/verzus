@@ -64,6 +64,7 @@ li.header-list__item {
 }
 
 h3.section-title {
+    margin: 30px 0 0;
     font-size: 30px;
     text-align: center;
     font-weight: 300;
@@ -72,12 +73,13 @@ h3.section-title {
 .reviews-block {
     display: flex;
     flex-wrap: wrap;
-    margin: 35px 50px;
+    margin: 20px 50px;
 }
 
 .reviews-block__item {
-    width: 50%;
+    width: calc(50% - 20px);
     display: flex;
+    margin-right: 20px;
 }
 
 
@@ -91,7 +93,7 @@ h3.section-title {
     height: 75px;
     border-radius: 50%;
     float: left;
-    margin: 0 20px 0 0;
+    margin: 8px 20px 0 0;
     flex: 1;
 }
 
