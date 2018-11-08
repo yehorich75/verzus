@@ -14,11 +14,15 @@ body {
     grid-template-rows: 323px 393px 712px 455px;
 }
 
-.header, .reviews, .buy, .contacts {
+.header,
+.reviews,
+.buy,
+.contacts {
     grid-column: 1/ -1;
 }
 
-.header, .contacts {
+.header,
+.contacts {
     background-color: #445162;
 }
 
@@ -26,7 +30,8 @@ body {
     background-color: #f5f5f5;
 }
 
-.reviews h3, .buy h3 {
+.reviews h3,
+.buy h3 {
     color: #445162;
 }
 
@@ -54,23 +59,27 @@ ul.header-list {
 
 li.header-list__item {
     font-size: 20px;
-    line-height: 36px;;
+    line-height: 36px;
+    ;
 }
 
 h3.section-title {
     font-size: 30px;
     text-align: center;
+    font-weight: 300;
 }
 
 .reviews-block {
     display: flex;
     flex-wrap: wrap;
+    margin: 35px 50px;
 }
 
 .reviews-block__item {
     width: 50%;
     display: flex;
 }
+
 
 /* .reviews-block__item > div {
     flex: 3 7;
@@ -90,12 +99,32 @@ h3.section-title {
     padding: 16px;
     background-color: #ebebeb;
     border-radius: 5px;
-    flex: 7;
+    flex: 6;
+    margin: 0 30px 30px 0;
 }
 
 .reviews-text__quote {
     color: #333333;
     font-size: 14px;
+    line-height: 18px;
     font-style: italic;
+    margin-bottom: 5px;
 }
 
+.reviews-text__author {
+    font-size: 14px;
+    color: #989898;
+}
+
+.cards {
+    margin: 0 145px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #445162;
+    border: 1px solid #445162;
+    border-radius: 5px;
+    width: 30%;
+}
