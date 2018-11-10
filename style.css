@@ -130,3 +130,13 @@ h3.section-title {
     border-radius: 5px;
     width: 30%;
 }
+
+.card-title,
+.card-list {
+    color: #ffffff;
+}
+
+.card-title {
+    text-align: center;
+}
+
