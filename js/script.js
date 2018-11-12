@@ -5,12 +5,13 @@ $(document).ready(function() {
 // https://www.youtube.com/watch?v=Ltmh0ybH1cI
 
 $(document).ready(function() {
-    $('#regForm').submit(function() {
+    $("#formjs").submit(function() {
         $.ajax({
             type: "POST",
             url: "mail.php",
             data: $(this).serialize()
         }).done(function() {
+            $(this).find("input").val("");
             alert("Thanks!");
         });
         return false;
