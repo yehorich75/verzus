@@ -1,0 +1,22 @@
+{
+  "name": "verzus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehorich75/verzus.git"
+  },
+  "author": "Yehor Oleksiienko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yehorich75/verzus/issues"
+  },
+  "homepage": "https://github.com/yehorich75/verzus#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
